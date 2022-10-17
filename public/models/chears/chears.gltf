@@ -1,0 +1,397 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "asiendo silla ",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Respaldo Silla",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "regaton silla",
+            "scale" : [
+                9.47069263458252,
+                9.47069263458252,
+                9.47069263458252
+            ],
+            "translation" : [
+                0.6727672219276428,
+                -5.639777183532715,
+                -0.43944767117500305
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "silla almohadon",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "silla",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 5
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "silla regatones + frente cajitas ",
+            "normalTexture" : {
+                "index" : 6
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 8
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Circle.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Circle.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "silla almohadon_Normal",
+            "uri" : "silla%20almohadon_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla almohadon_Base_Color",
+            "uri" : "silla%20almohadon_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla almohadon_Metallic-silla almohadon_Roughness",
+            "uri" : "silla%20almohadon_Metallic-silla%20almohadon_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla_Normal",
+            "uri" : "silla_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla_Base_Color",
+            "uri" : "silla_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla_Metallic-silla_Roughness",
+            "uri" : "silla_Metallic-silla_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla regatones + frente cajitas _Normal",
+            "uri" : "silla%20regatones%20%20frente%20cajitas%20_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla regatones + frente cajitas _Base_Color",
+            "uri" : "silla%20regatones%20%20frente%20cajitas%20_Base_Color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silla regatones + frente cajitas _Metallic-silla regatones + frente cajitas _Roughness",
+            "uri" : "silla%20regatones%20%20frente%20cajitas%20_Metallic-silla%20regatones%20%20frente%20cajitas%20_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 10208,
+            "max" : [
+                2.667602300643921,
+                0.4145640730857849,
+                -1.9461109638214111
+            ],
+            "min" : [
+                -2.667602300643921,
+                0.30182310938835144,
+                -2.2709832191467285
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 10208,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 10208,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 15312,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 155878,
+            "max" : [
+                2.7413618564605713,
+                0.7339298725128174,
+                -1.873714566230774
+            ],
+            "min" : [
+                -2.7413618564605713,
+                0.03345004841685295,
+                -2.343395948410034
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 155878,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 155878,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 233856,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 12092,
+            "max" : [
+                3.2784664630889893,
+                0.9530975222587585,
+                -1.8545360565185547
+            ],
+            "min" : [
+                -3.2784667015075684,
+                0,
+                -2.5425972938537598
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 12092,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 12092,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 18144,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 56047,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 585241,
+            "byteOffset" : 56048
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 55132,
+            "byteOffset" : 641292
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 696424,
+            "uri" : "chears.bin"
+        }
+    ]
+}
