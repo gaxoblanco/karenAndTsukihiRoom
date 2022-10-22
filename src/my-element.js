@@ -47,13 +47,15 @@ dracoModel(scene, gltfLoader, '/models/windows/windows.gltf')
 /**
  * Lights
  */
- const ambientLight = new THREE.AmbientLight(0xffffff, 1)
+ const ambientLight = new THREE.AmbientLight(0xffffff, 1.6)
  scene.add(ambientLight)
+
 // spotLight - addScene, watts,distance,aperture positionXYZ, directionXYZ, 
 spotLightII(scene, 3,27,0.4, -23,21,0, -24,0,0)
 spotLightII(scene, 30,27,0.4, 23,21,0, 23,0,0)
-spotLightII(scene, 3,12,0.2, -20.8,5,-24.8, -25,0.4,-21)
-spotLightII(scene, 3,12,0.2, 26.79,4.93,-25.36, 22.84,0.3,-22.64)
+
+spotLightII(scene, 3,12,0.2, -20.8,5,-24.8, -23.94,-0.4,-21)
+spotLightII(scene, 5,12,0.2, 26.79,4.93,-25.36, 23,-1.94,-24)
 
 /**
  * Sizes

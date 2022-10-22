@@ -644,8 +644,8 @@
         },
         {
             "mimeType" : "image/png",
-            "name" : "colchon b _Base_Color",
-            "uri" : "colchon%20b%20_Base_Color.png"
+            "name" : "shadow",
+            "uri" : "shadow.png"
         },
         {
             "mimeType" : "image/png",
